@@ -10,9 +10,6 @@
       "email": "7222225+k42k102h4t4@users.noreply.github.com"
     }
   ],
-  "scripts": {
-    "test": "vendor/bin/phpunit"
-  },
   "require": {
     "php": "^7.3||^8.0",
     "ext-intl": "*",

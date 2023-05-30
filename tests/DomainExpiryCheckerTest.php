@@ -5,7 +5,7 @@ namespace kaleidpixel\Tests;
 use PHPUnit\Framework\TestCase;
 use kaleidpixel\DomainExpiryChecker;
 
-abstract class DomainExpiryCheckerTest extends TestCase {
+class DomainExpiryCheckerTest extends TestCase {
 	private $checker;
 
 	protected function setUp(): void {
