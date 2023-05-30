@@ -1,6 +1,6 @@
 # Domain Expiry Checker
 
-Check the expiry date of a given domain.
+A simple library to check the expiry date of a given domain.
 
 # License
 MIT License  
