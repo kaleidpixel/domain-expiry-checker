@@ -4,7 +4,7 @@ require dirname( __DIR__ ) . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATO
 use kaleidpixel\DomainExpiryChecker;
 
 try {
-	$checker = new DomainExpiryChecker( '996sezaki.com' );
+	$checker = new DomainExpiryChecker( 'google.com' );
 
 	echo "Domain Expiry: " . $checker->getExpiryDate() . PHP_EOL;
 	echo "Domain Remind: " . $checker->remainingDays() . PHP_EOL;
